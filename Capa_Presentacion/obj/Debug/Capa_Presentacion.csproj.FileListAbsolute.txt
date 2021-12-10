@@ -1,0 +1,13 @@
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Presentacion\bin\Debug\Capa_Presentacion.exe.config
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Presentacion\bin\Debug\Capa_Presentacion.exe
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Presentacion\bin\Debug\Capa_Presentacion.pdb
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Presentacion\obj\Debug\Capa_Presentacion.csprojAssemblyReference.cache
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Presentacion\obj\Debug\Capa_Presentacion.Properties.Resources.resources
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Presentacion\obj\Debug\Capa_Presentacion.csproj.GenerateResource.cache
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Presentacion\obj\Debug\Capa_Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Presentacion\obj\Debug\Capa_Presentacion.exe
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Presentacion\obj\Debug\Capa_Presentacion.pdb
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Presentacion\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Presentacion\obj\Debug\Capa_Presentacion.Frm_Usuarios.resources
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Presentacion\obj\Debug\Capa_Presentacion.csproj.CopyComplete
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Presentacion\obj\Debug\Capa_Presentacion.Frm_RegistrarUsuario.resources
