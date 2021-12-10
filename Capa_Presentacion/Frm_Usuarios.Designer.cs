@@ -64,15 +64,15 @@
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.bunifuFlatButton6 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton5 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.bunifuMetroTextbox4 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.bunifuMetroTextbox3 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.bunifuMetroTextbox2 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-            this.bunifuMetroTextbox1 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.LblAnuncioAvatar = new System.Windows.Forms.Label();
+            this.pictureAvatar = new System.Windows.Forms.PictureBox();
+            this.btnCerrar = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btnGuardar = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.comboRol = new System.Windows.Forms.ComboBox();
+            this.txtEmail = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txtContrasena = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txtUsuario = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txtNombreApellidos = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -99,7 +99,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureAvatar)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -436,7 +436,7 @@
             this.bunifuCards3.Name = "bunifuCards3";
             this.bunifuCards3.RightSahddow = true;
             this.bunifuCards3.ShadowDepth = 20;
-            this.bunifuCards3.Size = new System.Drawing.Size(625, 528);
+            this.bunifuCards3.Size = new System.Drawing.Size(625, 588);
             this.bunifuCards3.TabIndex = 6;
             // 
             // label14
@@ -463,15 +463,15 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.Controls.Add(this.Panel_Icon);
-            this.panel3.Controls.Add(this.label15);
-            this.panel3.Controls.Add(this.pictureBox4);
-            this.panel3.Controls.Add(this.bunifuFlatButton6);
-            this.panel3.Controls.Add(this.bunifuFlatButton5);
-            this.panel3.Controls.Add(this.comboBox1);
-            this.panel3.Controls.Add(this.bunifuMetroTextbox4);
-            this.panel3.Controls.Add(this.bunifuMetroTextbox3);
-            this.panel3.Controls.Add(this.bunifuMetroTextbox2);
-            this.panel3.Controls.Add(this.bunifuMetroTextbox1);
+            this.panel3.Controls.Add(this.LblAnuncioAvatar);
+            this.panel3.Controls.Add(this.pictureAvatar);
+            this.panel3.Controls.Add(this.btnCerrar);
+            this.panel3.Controls.Add(this.btnGuardar);
+            this.panel3.Controls.Add(this.comboRol);
+            this.panel3.Controls.Add(this.txtEmail);
+            this.panel3.Controls.Add(this.txtContrasena);
+            this.panel3.Controls.Add(this.txtUsuario);
+            this.panel3.Controls.Add(this.txtNombreApellidos);
             this.panel3.Controls.Add(this.label13);
             this.panel3.Controls.Add(this.label12);
             this.panel3.Controls.Add(this.label11);
@@ -479,14 +479,14 @@
             this.panel3.Controls.Add(this.label9);
             this.panel3.Location = new System.Drawing.Point(40, 97);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(555, 416);
+            this.panel3.Size = new System.Drawing.Size(555, 477);
             this.panel3.TabIndex = 1;
             // 
             // Panel_Icon
             // 
             this.Panel_Icon.BackColor = System.Drawing.Color.White;
             this.Panel_Icon.Controls.Add(this.flowLayoutPanel1);
-            this.Panel_Icon.Location = new System.Drawing.Point(13, 334);
+            this.Panel_Icon.Location = new System.Drawing.Point(11, 410);
             this.Panel_Icon.Name = "Panel_Icon";
             this.Panel_Icon.Size = new System.Drawing.Size(359, 64);
             this.Panel_Icon.TabIndex = 4;
@@ -599,177 +599,178 @@
             this.pictureBox13.TabIndex = 8;
             this.pictureBox13.TabStop = false;
             // 
-            // label15
+            // LblAnuncioAvatar
             // 
-            this.label15.BackColor = System.Drawing.Color.Silver;
-            this.label15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label15.Font = new System.Drawing.Font("Poppins Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(298, 71);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(242, 134);
-            this.label15.TabIndex = 13;
-            this.label15.Text = "Elija un avatar";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LblAnuncioAvatar.BackColor = System.Drawing.Color.Silver;
+            this.LblAnuncioAvatar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LblAnuncioAvatar.Font = new System.Drawing.Font("Poppins Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblAnuncioAvatar.ForeColor = System.Drawing.Color.White;
+            this.LblAnuncioAvatar.Location = new System.Drawing.Point(298, 71);
+            this.LblAnuncioAvatar.Name = "LblAnuncioAvatar";
+            this.LblAnuncioAvatar.Size = new System.Drawing.Size(242, 134);
+            this.LblAnuncioAvatar.TabIndex = 13;
+            this.LblAnuncioAvatar.Text = "Elija un avatar";
+            this.LblAnuncioAvatar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox4
+            // pictureAvatar
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(298, 37);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(242, 209);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 14;
-            this.pictureBox4.TabStop = false;
+            this.pictureAvatar.Location = new System.Drawing.Point(298, 37);
+            this.pictureAvatar.Name = "pictureAvatar";
+            this.pictureAvatar.Size = new System.Drawing.Size(242, 209);
+            this.pictureAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureAvatar.TabIndex = 14;
+            this.pictureAvatar.TabStop = false;
             // 
-            // bunifuFlatButton6
+            // btnCerrar
             // 
-            this.bunifuFlatButton6.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(103)))), ((int)(((byte)(179)))));
-            this.bunifuFlatButton6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(178)))), ((int)(((byte)(192)))));
-            this.bunifuFlatButton6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton6.BorderRadius = 0;
-            this.bunifuFlatButton6.ButtonText = "Cerrar";
-            this.bunifuFlatButton6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton6.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton6.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton6.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton6.Iconimage")));
-            this.bunifuFlatButton6.Iconimage_right = null;
-            this.bunifuFlatButton6.Iconimage_right_Selected = null;
-            this.bunifuFlatButton6.Iconimage_Selected = null;
-            this.bunifuFlatButton6.IconMarginLeft = 0;
-            this.bunifuFlatButton6.IconMarginRight = 0;
-            this.bunifuFlatButton6.IconRightVisible = true;
-            this.bunifuFlatButton6.IconRightZoom = 0D;
-            this.bunifuFlatButton6.IconVisible = true;
-            this.bunifuFlatButton6.IconZoom = 90D;
-            this.bunifuFlatButton6.IsTab = false;
-            this.bunifuFlatButton6.Location = new System.Drawing.Point(418, 370);
-            this.bunifuFlatButton6.Name = "bunifuFlatButton6";
-            this.bunifuFlatButton6.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(178)))), ((int)(((byte)(192)))));
-            this.bunifuFlatButton6.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(178)))), ((int)(((byte)(192)))));
-            this.bunifuFlatButton6.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton6.selected = false;
-            this.bunifuFlatButton6.Size = new System.Drawing.Size(110, 37);
-            this.bunifuFlatButton6.TabIndex = 12;
-            this.bunifuFlatButton6.Text = "Cerrar";
-            this.bunifuFlatButton6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton6.Textcolor = System.Drawing.Color.Black;
-            this.bunifuFlatButton6.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCerrar.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(103)))), ((int)(((byte)(179)))));
+            this.btnCerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(178)))), ((int)(((byte)(192)))));
+            this.btnCerrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCerrar.BorderRadius = 0;
+            this.btnCerrar.ButtonText = "Cerrar";
+            this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCerrar.DisabledColor = System.Drawing.Color.Gray;
+            this.btnCerrar.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnCerrar.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Iconimage")));
+            this.btnCerrar.Iconimage_right = null;
+            this.btnCerrar.Iconimage_right_Selected = null;
+            this.btnCerrar.Iconimage_Selected = null;
+            this.btnCerrar.IconMarginLeft = 0;
+            this.btnCerrar.IconMarginRight = 0;
+            this.btnCerrar.IconRightVisible = true;
+            this.btnCerrar.IconRightZoom = 0D;
+            this.btnCerrar.IconVisible = true;
+            this.btnCerrar.IconZoom = 90D;
+            this.btnCerrar.IsTab = false;
+            this.btnCerrar.Location = new System.Drawing.Point(418, 370);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(178)))), ((int)(((byte)(192)))));
+            this.btnCerrar.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(178)))), ((int)(((byte)(192)))));
+            this.btnCerrar.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnCerrar.selected = false;
+            this.btnCerrar.Size = new System.Drawing.Size(110, 37);
+            this.btnCerrar.TabIndex = 12;
+            this.btnCerrar.Text = "Cerrar";
+            this.btnCerrar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCerrar.Textcolor = System.Drawing.Color.Black;
+            this.btnCerrar.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuFlatButton5
+            // btnGuardar
             // 
-            this.bunifuFlatButton5.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(103)))), ((int)(((byte)(179)))));
-            this.bunifuFlatButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(103)))), ((int)(((byte)(179)))));
-            this.bunifuFlatButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton5.BorderRadius = 0;
-            this.bunifuFlatButton5.ButtonText = "Guardar";
-            this.bunifuFlatButton5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton5.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton5.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton5.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton5.Iconimage")));
-            this.bunifuFlatButton5.Iconimage_right = null;
-            this.bunifuFlatButton5.Iconimage_right_Selected = null;
-            this.bunifuFlatButton5.Iconimage_Selected = null;
-            this.bunifuFlatButton5.IconMarginLeft = 0;
-            this.bunifuFlatButton5.IconMarginRight = 0;
-            this.bunifuFlatButton5.IconRightVisible = true;
-            this.bunifuFlatButton5.IconRightZoom = 0D;
-            this.bunifuFlatButton5.IconVisible = true;
-            this.bunifuFlatButton5.IconZoom = 90D;
-            this.bunifuFlatButton5.IsTab = false;
-            this.bunifuFlatButton5.Location = new System.Drawing.Point(262, 370);
-            this.bunifuFlatButton5.Name = "bunifuFlatButton5";
-            this.bunifuFlatButton5.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(103)))), ((int)(((byte)(179)))));
-            this.bunifuFlatButton5.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(103)))), ((int)(((byte)(179)))));
-            this.bunifuFlatButton5.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton5.selected = false;
-            this.bunifuFlatButton5.Size = new System.Drawing.Size(110, 37);
-            this.bunifuFlatButton5.TabIndex = 11;
-            this.bunifuFlatButton5.Text = "Guardar";
-            this.bunifuFlatButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton5.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton5.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(103)))), ((int)(((byte)(179)))));
+            this.btnGuardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(103)))), ((int)(((byte)(179)))));
+            this.btnGuardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnGuardar.BorderRadius = 0;
+            this.btnGuardar.ButtonText = "Guardar";
+            this.btnGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGuardar.DisabledColor = System.Drawing.Color.Gray;
+            this.btnGuardar.Iconcolor = System.Drawing.Color.Transparent;
+            this.btnGuardar.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnGuardar.Iconimage")));
+            this.btnGuardar.Iconimage_right = null;
+            this.btnGuardar.Iconimage_right_Selected = null;
+            this.btnGuardar.Iconimage_Selected = null;
+            this.btnGuardar.IconMarginLeft = 0;
+            this.btnGuardar.IconMarginRight = 0;
+            this.btnGuardar.IconRightVisible = true;
+            this.btnGuardar.IconRightZoom = 0D;
+            this.btnGuardar.IconVisible = true;
+            this.btnGuardar.IconZoom = 90D;
+            this.btnGuardar.IsTab = false;
+            this.btnGuardar.Location = new System.Drawing.Point(262, 370);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(103)))), ((int)(((byte)(179)))));
+            this.btnGuardar.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(103)))), ((int)(((byte)(179)))));
+            this.btnGuardar.OnHoverTextColor = System.Drawing.Color.White;
+            this.btnGuardar.selected = false;
+            this.btnGuardar.Size = new System.Drawing.Size(110, 37);
+            this.btnGuardar.TabIndex = 11;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGuardar.Textcolor = System.Drawing.Color.White;
+            this.btnGuardar.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
-            // comboBox1
+            // comboRol
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.ItemHeight = 23;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.comboRol.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboRol.FormattingEnabled = true;
+            this.comboRol.ItemHeight = 23;
+            this.comboRol.Items.AddRange(new object[] {
             "Administrador",
             "Cajero",
             "Vendedor"});
-            this.comboBox1.Location = new System.Drawing.Point(290, 296);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(238, 31);
-            this.comboBox1.TabIndex = 10;
+            this.comboRol.Location = new System.Drawing.Point(290, 296);
+            this.comboRol.Name = "comboRol";
+            this.comboRol.Size = new System.Drawing.Size(238, 31);
+            this.comboRol.TabIndex = 10;
             // 
-            // bunifuMetroTextbox4
+            // txtEmail
             // 
-            this.bunifuMetroTextbox4.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox4.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox4.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox4.BorderThickness = 1;
-            this.bunifuMetroTextbox4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox4.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox4.isPassword = false;
-            this.bunifuMetroTextbox4.Location = new System.Drawing.Point(28, 290);
-            this.bunifuMetroTextbox4.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox4.Name = "bunifuMetroTextbox4";
-            this.bunifuMetroTextbox4.Size = new System.Drawing.Size(238, 37);
-            this.bunifuMetroTextbox4.TabIndex = 8;
-            this.bunifuMetroTextbox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtEmail.BorderColorFocused = System.Drawing.Color.Blue;
+            this.txtEmail.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtEmail.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.txtEmail.BorderThickness = 1;
+            this.txtEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtEmail.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtEmail.isPassword = false;
+            this.txtEmail.Location = new System.Drawing.Point(28, 290);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(4);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(238, 37);
+            this.txtEmail.TabIndex = 8;
+            this.txtEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // bunifuMetroTextbox3
+            // txtContrasena
             // 
-            this.bunifuMetroTextbox3.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox3.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox3.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox3.BorderThickness = 1;
-            this.bunifuMetroTextbox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox3.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox3.isPassword = false;
-            this.bunifuMetroTextbox3.Location = new System.Drawing.Point(28, 209);
-            this.bunifuMetroTextbox3.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox3.Name = "bunifuMetroTextbox3";
-            this.bunifuMetroTextbox3.Size = new System.Drawing.Size(238, 37);
-            this.bunifuMetroTextbox3.TabIndex = 7;
-            this.bunifuMetroTextbox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtContrasena.BorderColorFocused = System.Drawing.Color.Blue;
+            this.txtContrasena.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtContrasena.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.txtContrasena.BorderThickness = 1;
+            this.txtContrasena.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtContrasena.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtContrasena.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtContrasena.isPassword = false;
+            this.txtContrasena.Location = new System.Drawing.Point(28, 209);
+            this.txtContrasena.Margin = new System.Windows.Forms.Padding(4);
+            this.txtContrasena.Name = "txtContrasena";
+            this.txtContrasena.Size = new System.Drawing.Size(238, 37);
+            this.txtContrasena.TabIndex = 7;
+            this.txtContrasena.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // bunifuMetroTextbox2
+            // txtUsuario
             // 
-            this.bunifuMetroTextbox2.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox2.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox2.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox2.BorderThickness = 1;
-            this.bunifuMetroTextbox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox2.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox2.isPassword = false;
-            this.bunifuMetroTextbox2.Location = new System.Drawing.Point(27, 130);
-            this.bunifuMetroTextbox2.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox2.Name = "bunifuMetroTextbox2";
-            this.bunifuMetroTextbox2.Size = new System.Drawing.Size(238, 37);
-            this.bunifuMetroTextbox2.TabIndex = 6;
-            this.bunifuMetroTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtUsuario.BorderColorFocused = System.Drawing.Color.Blue;
+            this.txtUsuario.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtUsuario.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.txtUsuario.BorderThickness = 1;
+            this.txtUsuario.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtUsuario.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtUsuario.isPassword = false;
+            this.txtUsuario.Location = new System.Drawing.Point(27, 130);
+            this.txtUsuario.Margin = new System.Windows.Forms.Padding(4);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(238, 37);
+            this.txtUsuario.TabIndex = 6;
+            this.txtUsuario.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // bunifuMetroTextbox1
+            // txtNombreApellidos
             // 
-            this.bunifuMetroTextbox1.BorderColorFocused = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox1.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox1.BorderColorMouseHover = System.Drawing.Color.Blue;
-            this.bunifuMetroTextbox1.BorderThickness = 1;
-            this.bunifuMetroTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMetroTextbox1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMetroTextbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMetroTextbox1.isPassword = false;
-            this.bunifuMetroTextbox1.Location = new System.Drawing.Point(27, 52);
-            this.bunifuMetroTextbox1.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMetroTextbox1.Name = "bunifuMetroTextbox1";
-            this.bunifuMetroTextbox1.Size = new System.Drawing.Size(239, 37);
-            this.bunifuMetroTextbox1.TabIndex = 5;
-            this.bunifuMetroTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtNombreApellidos.BorderColorFocused = System.Drawing.Color.Blue;
+            this.txtNombreApellidos.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtNombreApellidos.BorderColorMouseHover = System.Drawing.Color.Blue;
+            this.txtNombreApellidos.BorderThickness = 1;
+            this.txtNombreApellidos.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtNombreApellidos.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtNombreApellidos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtNombreApellidos.isPassword = false;
+            this.txtNombreApellidos.Location = new System.Drawing.Point(27, 52);
+            this.txtNombreApellidos.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNombreApellidos.Name = "txtNombreApellidos";
+            this.txtNombreApellidos.Size = new System.Drawing.Size(239, 37);
+            this.txtNombreApellidos.TabIndex = 5;
+            this.txtNombreApellidos.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // label13
             // 
@@ -826,7 +827,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(706, 657);
+            this.ClientSize = new System.Drawing.Size(706, 680);
             this.Controls.Add(this.bunifuCards3);
             this.Controls.Add(this.bunifuFlatButton4);
             this.Controls.Add(this.bunifuFlatButton3);
@@ -864,7 +865,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureAvatar)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -893,22 +894,22 @@
         private Bunifu.Framework.UI.BunifuTextbox bunifuTextbox1;
         private Bunifu.Framework.UI.BunifuCards bunifuCards3;
         private System.Windows.Forms.Panel panel3;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox4;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox3;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox2;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox1;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtEmail;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtContrasena;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtUsuario;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txtNombreApellidos;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton5;
+        private System.Windows.Forms.ComboBox comboRol;
+        private Bunifu.Framework.UI.BunifuFlatButton btnGuardar;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton6;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private Bunifu.Framework.UI.BunifuFlatButton btnCerrar;
+        private System.Windows.Forms.Label LblAnuncioAvatar;
+        private System.Windows.Forms.PictureBox pictureAvatar;
         private System.Windows.Forms.Panel Panel_Icon;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.PictureBox pictureBox5;

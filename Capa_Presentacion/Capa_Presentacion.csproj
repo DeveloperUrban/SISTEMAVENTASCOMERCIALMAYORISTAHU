@@ -50,12 +50,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Frm_RegistrarUsuario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frm_RegistrarUsuario.Designer.cs">
-      <DependentUpon>Frm_RegistrarUsuario.cs</DependentUpon>
-    </Compile>
     <Compile Include="Frm_Usuarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,9 +64,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Frm_RegistrarUsuario.resx">
-      <DependentUpon>Frm_RegistrarUsuario.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Usuarios.resx">
       <DependentUpon>Frm_Usuarios.cs</DependentUpon>
     </EmbeddedResource>
@@ -97,6 +88,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Capa_Entidades\Capa_Entidades.csproj">
+      <Project>{d12ca6ec-d771-46ba-97bb-c3ae9d706f75}</Project>
+      <Name>Capa_Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Capa_Logica\Capa_Logica.csproj">
+      <Project>{67384fd3-0b21-4557-92e7-c43b358985e3}</Project>
+      <Name>Capa_Logica</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
