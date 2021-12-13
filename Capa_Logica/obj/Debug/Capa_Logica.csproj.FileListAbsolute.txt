@@ -1,0 +1,11 @@
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Logica\bin\Debug\Capa_Logica.dll
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Logica\bin\Debug\Capa_Logica.pdb
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Logica\bin\Debug\Capa_Datos.dll
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Logica\bin\Debug\Capa_Entidades.dll
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Logica\bin\Debug\Capa_Datos.pdb
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Logica\bin\Debug\Capa_Entidades.pdb
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Logica\obj\Debug\Capa_Logica.csprojAssemblyReference.cache
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Logica\obj\Debug\Capa_Logica.csproj.CoreCompileInputs.cache
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Logica\obj\Debug\Capa_Logica.csproj.CopyComplete
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Logica\obj\Debug\Capa_Logica.dll
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Logica\obj\Debug\Capa_Logica.pdb

@@ -10,3 +10,9 @@ C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Presentac
 C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Presentacion\bin\Debug\Bunifu_UI_v1.52.dll
 C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Presentacion\obj\Debug\Capa_Presentacion.Frm_Usuarios.resources
 C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Presentacion\obj\Debug\Capa_Presentacion.csproj.CopyComplete
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Presentacion\bin\Debug\Capa_Entidades.dll
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Presentacion\bin\Debug\Capa_Logica.dll
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Presentacion\bin\Debug\Capa_Datos.dll
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Presentacion\bin\Debug\Capa_Entidades.pdb
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Presentacion\bin\Debug\Capa_Logica.pdb
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Presentacion\bin\Debug\Capa_Datos.pdb

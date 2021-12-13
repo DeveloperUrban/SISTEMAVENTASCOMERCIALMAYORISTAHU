@@ -1,0 +1,6 @@
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Entidades\bin\Debug\Capa_Entidades.dll
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Entidades\bin\Debug\Capa_Entidades.pdb
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Entidades\obj\Debug\Capa_Entidades.csprojAssemblyReference.cache
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Entidades\obj\Debug\Capa_Entidades.csproj.CoreCompileInputs.cache
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Entidades\obj\Debug\Capa_Entidades.dll
+C:\Users\PC-URBANO\source\repos\SISTEMAVENTASCOMERCIALMAYORISTAHU\Capa_Entidades\obj\Debug\Capa_Entidades.pdb

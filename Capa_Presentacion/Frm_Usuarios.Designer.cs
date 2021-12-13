@@ -53,8 +53,9 @@
             this.label14 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.LblNombreIcon = new System.Windows.Forms.Label();
             this.Panel_Icon = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.PanelContenedorIcon = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
@@ -89,7 +90,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel3.SuspendLayout();
             this.Panel_Icon.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
+            this.PanelContenedorIcon.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -432,7 +433,7 @@
             this.bunifuCards3.Controls.Add(this.pictureBox3);
             this.bunifuCards3.Controls.Add(this.panel3);
             this.bunifuCards3.LeftSahddow = false;
-            this.bunifuCards3.Location = new System.Drawing.Point(44, 80);
+            this.bunifuCards3.Location = new System.Drawing.Point(44, 76);
             this.bunifuCards3.Name = "bunifuCards3";
             this.bunifuCards3.RightSahddow = true;
             this.bunifuCards3.ShadowDepth = 20;
@@ -462,6 +463,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.Controls.Add(this.LblNombreIcon);
             this.panel3.Controls.Add(this.Panel_Icon);
             this.panel3.Controls.Add(this.LblAnuncioAvatar);
             this.panel3.Controls.Add(this.pictureAvatar);
@@ -477,36 +479,44 @@
             this.panel3.Controls.Add(this.label11);
             this.panel3.Controls.Add(this.label10);
             this.panel3.Controls.Add(this.label9);
-            this.panel3.Location = new System.Drawing.Point(40, 97);
+            this.panel3.Location = new System.Drawing.Point(24, 101);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(555, 477);
+            this.panel3.Size = new System.Drawing.Size(575, 477);
             this.panel3.TabIndex = 1;
+            // 
+            // LblNombreIcon
+            // 
+            this.LblNombreIcon.AutoSize = true;
+            this.LblNombreIcon.Location = new System.Drawing.Point(415, 224);
+            this.LblNombreIcon.Name = "LblNombreIcon";
+            this.LblNombreIcon.Size = new System.Drawing.Size(0, 13);
+            this.LblNombreIcon.TabIndex = 15;
             // 
             // Panel_Icon
             // 
             this.Panel_Icon.BackColor = System.Drawing.Color.White;
-            this.Panel_Icon.Controls.Add(this.flowLayoutPanel1);
-            this.Panel_Icon.Location = new System.Drawing.Point(11, 410);
+            this.Panel_Icon.Controls.Add(this.PanelContenedorIcon);
+            this.Panel_Icon.Location = new System.Drawing.Point(3, 20);
             this.Panel_Icon.Name = "Panel_Icon";
-            this.Panel_Icon.Size = new System.Drawing.Size(359, 64);
+            this.Panel_Icon.Size = new System.Drawing.Size(572, 441);
             this.Panel_Icon.TabIndex = 4;
             // 
-            // flowLayoutPanel1
+            // PanelContenedorIcon
             // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Gray;
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox5);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox6);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox7);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox8);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox9);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox10);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox11);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox12);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox13);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(34, 27);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(546, 397);
-            this.flowLayoutPanel1.TabIndex = 0;
+            this.PanelContenedorIcon.BackColor = System.Drawing.Color.Gainsboro;
+            this.PanelContenedorIcon.Controls.Add(this.pictureBox5);
+            this.PanelContenedorIcon.Controls.Add(this.pictureBox6);
+            this.PanelContenedorIcon.Controls.Add(this.pictureBox7);
+            this.PanelContenedorIcon.Controls.Add(this.pictureBox8);
+            this.PanelContenedorIcon.Controls.Add(this.pictureBox9);
+            this.PanelContenedorIcon.Controls.Add(this.pictureBox10);
+            this.PanelContenedorIcon.Controls.Add(this.pictureBox11);
+            this.PanelContenedorIcon.Controls.Add(this.pictureBox12);
+            this.PanelContenedorIcon.Controls.Add(this.pictureBox13);
+            this.PanelContenedorIcon.Location = new System.Drawing.Point(11, 19);
+            this.PanelContenedorIcon.Name = "PanelContenedorIcon";
+            this.PanelContenedorIcon.Size = new System.Drawing.Size(546, 346);
+            this.PanelContenedorIcon.TabIndex = 0;
             // 
             // pictureBox5
             // 
@@ -517,6 +527,7 @@
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox6
             // 
@@ -527,6 +538,7 @@
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 1;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox7
             // 
@@ -537,6 +549,7 @@
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 2;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // pictureBox8
             // 
@@ -547,6 +560,7 @@
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 3;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // pictureBox9
             // 
@@ -557,6 +571,7 @@
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox9.TabIndex = 4;
             this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // pictureBox10
             // 
@@ -567,6 +582,7 @@
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox10.TabIndex = 5;
             this.pictureBox10.TabStop = false;
+            this.pictureBox10.Click += new System.EventHandler(this.pictureBox10_Click);
             // 
             // pictureBox11
             // 
@@ -577,6 +593,7 @@
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox11.TabIndex = 6;
             this.pictureBox11.TabStop = false;
+            this.pictureBox11.Click += new System.EventHandler(this.pictureBox11_Click);
             // 
             // pictureBox12
             // 
@@ -587,6 +604,7 @@
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox12.TabIndex = 7;
             this.pictureBox12.TabStop = false;
+            this.pictureBox12.Click += new System.EventHandler(this.pictureBox12_Click);
             // 
             // pictureBox13
             // 
@@ -605,18 +623,19 @@
             this.LblAnuncioAvatar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LblAnuncioAvatar.Font = new System.Drawing.Font("Poppins Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblAnuncioAvatar.ForeColor = System.Drawing.Color.White;
-            this.LblAnuncioAvatar.Location = new System.Drawing.Point(298, 71);
+            this.LblAnuncioAvatar.Location = new System.Drawing.Point(298, 52);
             this.LblAnuncioAvatar.Name = "LblAnuncioAvatar";
             this.LblAnuncioAvatar.Size = new System.Drawing.Size(242, 134);
             this.LblAnuncioAvatar.TabIndex = 13;
             this.LblAnuncioAvatar.Text = "Elija un avatar";
             this.LblAnuncioAvatar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LblAnuncioAvatar.Click += new System.EventHandler(this.LblAnuncioAvatar_Click);
             // 
             // pictureAvatar
             // 
-            this.pictureAvatar.Location = new System.Drawing.Point(298, 37);
+            this.pictureAvatar.Location = new System.Drawing.Point(298, 20);
             this.pictureAvatar.Name = "pictureAvatar";
-            this.pictureAvatar.Size = new System.Drawing.Size(242, 209);
+            this.pictureAvatar.Size = new System.Drawing.Size(242, 193);
             this.pictureAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureAvatar.TabIndex = 14;
             this.pictureAvatar.TabStop = false;
@@ -839,6 +858,7 @@
             this.Name = "Frm_Usuarios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.Frm_Usuarios_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -855,7 +875,7 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.Panel_Icon.ResumeLayout(false);
-            this.flowLayoutPanel1.ResumeLayout(false);
+            this.PanelContenedorIcon.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
@@ -911,7 +931,7 @@
         private System.Windows.Forms.Label LblAnuncioAvatar;
         private System.Windows.Forms.PictureBox pictureAvatar;
         private System.Windows.Forms.Panel Panel_Icon;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.FlowLayoutPanel PanelContenedorIcon;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
@@ -921,5 +941,6 @@
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.Label LblNombreIcon;
     }
 }
