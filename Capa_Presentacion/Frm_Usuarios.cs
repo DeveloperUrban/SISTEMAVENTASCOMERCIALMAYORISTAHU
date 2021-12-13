@@ -31,6 +31,13 @@ namespace Capa_Presentacion
             txtContrasena.Text = "";
             txtEmail.Text = "";
             comboRol.Text = "";
+            LblAnuncioAvatar.Visible = true;
+            LblNombreIcon.Text = "";
+        }
+
+        public void listarDataGridUsuario(string buscar)
+        {
+            DataGridUsuarios.DataSource = objUsuarioL.MostrarUsuario(buscar);
         }
 
         public bool ValidarCorreo(string email)
@@ -188,8 +195,19 @@ namespace Capa_Presentacion
         private void Frm_Usuarios_Load(object sender, EventArgs e)
         {
             Panel_Icon.Visible = false;
+            PanelRegistroUsuario.Visible = false;
+            listarDataGridUsuario("");
         }
 
-     
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            PanelRegistroUsuario.Visible = false;
+        }
+
+        private void bunifuFlatButton2_Click(object sender, EventArgs e)
+        {
+            PanelRegistroUsuario.Visible = true;
+            LimpiarCajasTexto();
+        }
     }
 }

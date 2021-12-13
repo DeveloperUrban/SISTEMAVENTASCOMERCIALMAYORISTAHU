@@ -45,11 +45,11 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.DataGridUsuarios = new System.Windows.Forms.DataGridView();
+            this.BtnCreaUsuario = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton3 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton4 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuCards3 = new Bunifu.Framework.UI.BunifuCards();
+            this.PanelRegistroUsuario = new Bunifu.Framework.UI.BunifuCards();
             this.label14 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -85,8 +85,8 @@
             this.bunifuCards1.SuspendLayout();
             this.bunifuCards2.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.bunifuCards3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridUsuarios)).BeginInit();
+            this.PanelRegistroUsuario.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel3.SuspendLayout();
             this.Panel_Icon.SuspendLayout();
@@ -227,7 +227,7 @@
             this.bunifuCards2.BottomSahddow = true;
             this.bunifuCards2.color = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(103)))), ((int)(((byte)(179)))));
             this.bunifuCards2.Controls.Add(this.panel2);
-            this.bunifuCards2.Controls.Add(this.dataGridView1);
+            this.bunifuCards2.Controls.Add(this.DataGridUsuarios);
             this.bunifuCards2.LeftSahddow = false;
             this.bunifuCards2.Location = new System.Drawing.Point(46, 268);
             this.bunifuCards2.Name = "bunifuCards2";
@@ -309,51 +309,52 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Id";
             // 
-            // dataGridView1
+            // DataGridUsuarios
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 44);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(621, 240);
-            this.dataGridView1.TabIndex = 1;
+            this.DataGridUsuarios.AllowUserToAddRows = false;
+            this.DataGridUsuarios.BackgroundColor = System.Drawing.Color.White;
+            this.DataGridUsuarios.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.DataGridUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataGridUsuarios.Location = new System.Drawing.Point(0, 44);
+            this.DataGridUsuarios.Name = "DataGridUsuarios";
+            this.DataGridUsuarios.ReadOnly = true;
+            this.DataGridUsuarios.Size = new System.Drawing.Size(621, 240);
+            this.DataGridUsuarios.TabIndex = 1;
             // 
-            // bunifuFlatButton2
+            // BtnCreaUsuario
             // 
-            this.bunifuFlatButton2.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(103)))), ((int)(((byte)(179)))));
-            this.bunifuFlatButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(103)))), ((int)(((byte)(179)))));
-            this.bunifuFlatButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton2.BorderRadius = 5;
-            this.bunifuFlatButton2.ButtonText = "Crear Usuario";
-            this.bunifuFlatButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton2.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton2.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton2.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton2.Iconimage")));
-            this.bunifuFlatButton2.Iconimage_right = null;
-            this.bunifuFlatButton2.Iconimage_right_Selected = null;
-            this.bunifuFlatButton2.Iconimage_Selected = null;
-            this.bunifuFlatButton2.IconMarginLeft = 0;
-            this.bunifuFlatButton2.IconMarginRight = 0;
-            this.bunifuFlatButton2.IconRightVisible = true;
-            this.bunifuFlatButton2.IconRightZoom = 0D;
-            this.bunifuFlatButton2.IconVisible = true;
-            this.bunifuFlatButton2.IconZoom = 60D;
-            this.bunifuFlatButton2.IsTab = false;
-            this.bunifuFlatButton2.Location = new System.Drawing.Point(56, 218);
-            this.bunifuFlatButton2.Name = "bunifuFlatButton2";
-            this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(103)))), ((int)(((byte)(179)))));
-            this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(103)))), ((int)(((byte)(179)))));
-            this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.selected = false;
-            this.bunifuFlatButton2.Size = new System.Drawing.Size(158, 33);
-            this.bunifuFlatButton2.TabIndex = 4;
-            this.bunifuFlatButton2.Text = "Crear Usuario";
-            this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton2.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Poppins", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCreaUsuario.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(103)))), ((int)(((byte)(179)))));
+            this.BtnCreaUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(103)))), ((int)(((byte)(179)))));
+            this.BtnCreaUsuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnCreaUsuario.BorderRadius = 5;
+            this.BtnCreaUsuario.ButtonText = "Crear Usuario";
+            this.BtnCreaUsuario.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnCreaUsuario.DisabledColor = System.Drawing.Color.Gray;
+            this.BtnCreaUsuario.Iconcolor = System.Drawing.Color.Transparent;
+            this.BtnCreaUsuario.Iconimage = ((System.Drawing.Image)(resources.GetObject("BtnCreaUsuario.Iconimage")));
+            this.BtnCreaUsuario.Iconimage_right = null;
+            this.BtnCreaUsuario.Iconimage_right_Selected = null;
+            this.BtnCreaUsuario.Iconimage_Selected = null;
+            this.BtnCreaUsuario.IconMarginLeft = 0;
+            this.BtnCreaUsuario.IconMarginRight = 0;
+            this.BtnCreaUsuario.IconRightVisible = true;
+            this.BtnCreaUsuario.IconRightZoom = 0D;
+            this.BtnCreaUsuario.IconVisible = true;
+            this.BtnCreaUsuario.IconZoom = 60D;
+            this.BtnCreaUsuario.IsTab = false;
+            this.BtnCreaUsuario.Location = new System.Drawing.Point(56, 218);
+            this.BtnCreaUsuario.Name = "BtnCreaUsuario";
+            this.BtnCreaUsuario.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(103)))), ((int)(((byte)(179)))));
+            this.BtnCreaUsuario.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(103)))), ((int)(((byte)(179)))));
+            this.BtnCreaUsuario.OnHoverTextColor = System.Drawing.Color.White;
+            this.BtnCreaUsuario.selected = false;
+            this.BtnCreaUsuario.Size = new System.Drawing.Size(158, 33);
+            this.BtnCreaUsuario.TabIndex = 4;
+            this.BtnCreaUsuario.Text = "Crear Usuario";
+            this.BtnCreaUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.BtnCreaUsuario.Textcolor = System.Drawing.Color.White;
+            this.BtnCreaUsuario.TextFont = new System.Drawing.Font("Poppins", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCreaUsuario.Click += new System.EventHandler(this.bunifuFlatButton2_Click);
             // 
             // bunifuFlatButton3
             // 
@@ -423,22 +424,22 @@
             this.bunifuFlatButton4.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton4.TextFont = new System.Drawing.Font("Poppins", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuCards3
+            // PanelRegistroUsuario
             // 
-            this.bunifuCards3.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuCards3.BorderRadius = 5;
-            this.bunifuCards3.BottomSahddow = true;
-            this.bunifuCards3.color = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(103)))), ((int)(((byte)(179)))));
-            this.bunifuCards3.Controls.Add(this.label14);
-            this.bunifuCards3.Controls.Add(this.pictureBox3);
-            this.bunifuCards3.Controls.Add(this.panel3);
-            this.bunifuCards3.LeftSahddow = false;
-            this.bunifuCards3.Location = new System.Drawing.Point(44, 76);
-            this.bunifuCards3.Name = "bunifuCards3";
-            this.bunifuCards3.RightSahddow = true;
-            this.bunifuCards3.ShadowDepth = 20;
-            this.bunifuCards3.Size = new System.Drawing.Size(625, 588);
-            this.bunifuCards3.TabIndex = 6;
+            this.PanelRegistroUsuario.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.PanelRegistroUsuario.BorderRadius = 5;
+            this.PanelRegistroUsuario.BottomSahddow = true;
+            this.PanelRegistroUsuario.color = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(103)))), ((int)(((byte)(179)))));
+            this.PanelRegistroUsuario.Controls.Add(this.label14);
+            this.PanelRegistroUsuario.Controls.Add(this.pictureBox3);
+            this.PanelRegistroUsuario.Controls.Add(this.panel3);
+            this.PanelRegistroUsuario.LeftSahddow = false;
+            this.PanelRegistroUsuario.Location = new System.Drawing.Point(44, 80);
+            this.PanelRegistroUsuario.Name = "PanelRegistroUsuario";
+            this.PanelRegistroUsuario.RightSahddow = true;
+            this.PanelRegistroUsuario.ShadowDepth = 20;
+            this.PanelRegistroUsuario.Size = new System.Drawing.Size(625, 588);
+            this.PanelRegistroUsuario.TabIndex = 6;
             // 
             // label14
             // 
@@ -496,10 +497,11 @@
             // 
             this.Panel_Icon.BackColor = System.Drawing.Color.White;
             this.Panel_Icon.Controls.Add(this.PanelContenedorIcon);
-            this.Panel_Icon.Location = new System.Drawing.Point(3, 20);
+            this.Panel_Icon.Location = new System.Drawing.Point(3, 3);
             this.Panel_Icon.Name = "Panel_Icon";
             this.Panel_Icon.Size = new System.Drawing.Size(572, 441);
             this.Panel_Icon.TabIndex = 4;
+            this.Panel_Icon.Visible = false;
             // 
             // PanelContenedorIcon
             // 
@@ -623,9 +625,9 @@
             this.LblAnuncioAvatar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LblAnuncioAvatar.Font = new System.Drawing.Font("Poppins Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblAnuncioAvatar.ForeColor = System.Drawing.Color.White;
-            this.LblAnuncioAvatar.Location = new System.Drawing.Point(298, 52);
+            this.LblAnuncioAvatar.Location = new System.Drawing.Point(298, 20);
             this.LblAnuncioAvatar.Name = "LblAnuncioAvatar";
-            this.LblAnuncioAvatar.Size = new System.Drawing.Size(242, 134);
+            this.LblAnuncioAvatar.Size = new System.Drawing.Size(242, 193);
             this.LblAnuncioAvatar.TabIndex = 13;
             this.LblAnuncioAvatar.Text = "Elija un avatar";
             this.LblAnuncioAvatar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -673,6 +675,7 @@
             this.btnCerrar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCerrar.Textcolor = System.Drawing.Color.Black;
             this.btnCerrar.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // btnGuardar
             // 
@@ -847,10 +850,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(706, 680);
-            this.Controls.Add(this.bunifuCards3);
+            this.Controls.Add(this.PanelRegistroUsuario);
             this.Controls.Add(this.bunifuFlatButton4);
             this.Controls.Add(this.bunifuFlatButton3);
-            this.Controls.Add(this.bunifuFlatButton2);
+            this.Controls.Add(this.BtnCreaUsuario);
             this.Controls.Add(this.bunifuCards2);
             this.Controls.Add(this.bunifuCards1);
             this.Controls.Add(this.panel1);
@@ -868,9 +871,9 @@
             this.bunifuCards2.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.bunifuCards3.ResumeLayout(false);
-            this.bunifuCards3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridUsuarios)).EndInit();
+            this.PanelRegistroUsuario.ResumeLayout(false);
+            this.PanelRegistroUsuario.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
@@ -898,7 +901,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private Bunifu.Framework.UI.BunifuCards bunifuCards1;
         private Bunifu.Framework.UI.BunifuCards bunifuCards2;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView DataGridUsuarios;
         private System.Windows.Forms.Label label2;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
         private System.Windows.Forms.Panel panel2;
@@ -908,11 +911,11 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton2;
+        private Bunifu.Framework.UI.BunifuFlatButton BtnCreaUsuario;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton3;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton4;
         private Bunifu.Framework.UI.BunifuTextbox bunifuTextbox1;
-        private Bunifu.Framework.UI.BunifuCards bunifuCards3;
+        private Bunifu.Framework.UI.BunifuCards PanelRegistroUsuario;
         private System.Windows.Forms.Panel panel3;
         private Bunifu.Framework.UI.BunifuMetroTextbox txtEmail;
         private Bunifu.Framework.UI.BunifuMetroTextbox txtContrasena;

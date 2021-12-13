@@ -18,5 +18,9 @@ namespace Capa_Logica
             objUsuario.InsertUsuario(_Usuario);
         }
 
+        public List<E_Usuario> MostrarUsuario(string buscar)
+        {
+           return  objUsuario.ListarUsuario(buscar);
+        }
     }
 }

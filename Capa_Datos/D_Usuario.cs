@@ -28,7 +28,36 @@ namespace Capa_Datos
 
             cmd.ExecuteNonQuery();
             con.CerrarConexion();
-    }
+        }
 
+
+        public List<E_Usuario> ListarUsuario(string buscar)
+        {
+            SqlDataReader LeerFilas;
+            SqlCommand cmd = new SqlCommand("SP_BUSCAR_USUARIO", con.AbrirConexion());
+            cmd.CommandType = CommandType.StoredProcedure;
+
+            cmd.Parameters.AddWithValue("@BUSQUEDA", buscar);
+            LeerFilas = cmd.ExecuteReader();
+
+            List<E_Usuario> listar = new List<E_Usuario>();
+            while(LeerFilas.Read())
+            {
+                listar.Add(new E_Usuario
+                {
+                    Idusuario = LeerFilas.GetInt32(0),
+                    NombresApellidos = LeerFilas.GetString(1),
+                    Login = LeerFilas.GetString(2),
+                    Password = LeerFilas.GetString(3),
+                    //Icon =  (byte)LeerFilas.ReadByte(),
+                    Correo = LeerFilas.GetString(5),
+                    Rol = LeerFilas.GetString(5)
+                });
+            }
+            con.CerrarConexion();
+            LeerFilas.Close();
+            return listar;
+        
+        }
     }
 }
